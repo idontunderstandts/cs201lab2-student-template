@@ -165,7 +165,7 @@ public class SinglyLinkedList<E extends Comparable<E>> {
                 pairNode.setNext(currentNode);      // pair points to current
                 currentNode.setNext(nextPairNode);  // current points to what pair had
 
-                // Update tail
+                // update tail
                 if (nextPairNode == null) {
                     tail = currentNode;
                 }
